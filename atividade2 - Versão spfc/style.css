@@ -1,0 +1,353 @@
+html, body, h1, h2, h3, h4, ul, li {
+    margin: 0;
+    padding: 0;
+}
+h1 img {
+    display: block;
+}
+img {
+    border: 0;
+}
+a{
+    color: #808080;
+}
+a:hover {
+    color:#f10101
+}
+.left {
+    float: left;
+}
+.right {
+    float: right
+}
+.clear {
+    clear: both;
+}
+
+body {
+    background: rgb(80, 80, 80) url(imagens/spfc1fundo.jpg) no-repeat fixed;
+    text-align:center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    color: rgba(185, 25, 30, 0.80);
+    padding-bottom: 10px;
+    background-size:cover;
+    background-blend-mode:soft-light;
+}
+
+/* layout */
+
+#wrapper {
+    text-align: left;
+    margin: 40px auto;
+    width: 680px;
+    background: #000;
+    position: relative;
+}
+
+#header {
+    background:#1C1C1C;
+    height: 266px;
+    background-size: contain;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#header .dark {
+    width: 150px;
+    height: 250px;
+}
+
+#logo {
+    position:absolute;
+    top: 15px;
+    left: 190px;
+    width: 200px;
+    
+}
+
+#logo h1 {
+    font: bold 24px "arial narrow", arial, sans-serif;
+}
+
+#logo p {
+    margin: 1px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.8em;
+
+}
+
+#cart {
+    position: absolute;
+    top:10px;
+    left: 430px;
+    width: auto;
+    background: rgba(200, 40, 30, 0.70);
+    width: 220px;
+    border-radius:8px;
+}
+
+#cart-cart {
+    background: 10px 10px url(imagens/cart.gif) no-repeat;
+    padding: 4px 4px 8px 60px;
+    color: #f00;
+}
+
+#cart p {
+    margin: 0;
+    padding: 1px
+}
+
+#cart .orange {
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+#nav {
+    background: #1C1C1C;
+    position: absolute;
+    top: 95px;
+    left:190px;
+    width: 450px;
+    padding: 9px 0;
+    text-align:center;
+    border-radius: 8px;
+}
+
+#nav li {
+    list-style: none;
+    display: inline;
+    color: #fff;  
+}
+
+#nav a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+    color: rgba(200, 40, 30, 0.70);
+    font-style: italic;
+}
+
+#gallery {
+    position: absolute;
+    top: 155px;
+    left: 177px;
+    width: 500px;
+}
+
+#gallery li {
+    list-style: none;
+    text-indent: 16px;
+    float: left;
+    overflow: hidden;
+    height: 111px;
+}
+
+#gallery .pic1 {
+    width: 120px;
+}
+#gallery .pic2 {
+    width: 120px;
+}
+#gallery .pic3 {
+    width: 120px;
+}
+#gallery .pic4 {
+    width: 120px;
+}
+
+#gallery img {
+    width: 80%;
+}
+
+#body {
+    padding-top: 3px;
+    background-color: #000;
+}
+
+#categories {
+    float: left;
+    width: 200px;
+}
+
+#seasonal {
+    float: right;
+    width: 474px;
+    background: #000; 
+    margin-bottom: 3px;
+}
+
+#collection {
+    float: right;
+    width: 474px;
+    background: #000;
+    margin-bottom: 3px;
+}
+
+
+#seasonal .inner{
+    padding:0px;
+    height: 220px;
+   
+}
+
+#seasonal .inner iframe {
+    height: 100%;
+    width: 100%;
+    border: 0px solid;
+}
+
+#collection .inner {
+    padding: 6px 12px;
+    height: 150px;
+}
+
+#seasonal p, #collection p {
+    margin: 0.9rem 0;
+}
+
+h3 {
+    font: bold 14px "arial narow", arial, sans-serif;
+    color: #1B1812;
+}
+
+h2 {
+    font: 18px "arial narrow", arial, sans-serif;
+    color: #695F4C;
+    padding-bottom: 10px;
+}
+
+#categories h2 {
+    color: #fff;
+    padding: 1px 0 1px 25px;
+    background: rgba(200, 30, 30, 0.65);
+}
+
+#categories li {
+    background: #f1f1f1 left url(imagens/bullet.gif) no-repeat;
+    border-top: 1px solid #000;
+    list-style: none;
+    font-size: 0.7rem;
+    padding: 7px 0px 8px 30px;
+}
+
+#categories li:hover {
+    background: rgba(160, 20, 25, 0.75) left url(imagens/bullet.gif) no-repeat;
+    border-top: 1px solid #F4EFDF;
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 7px 7 0px 31px;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #000;
+}
+#categories a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+ 
+}
+
+#collection {
+    
+    background: #f1f1f1 bottom right url(imagens/spfc1.jpg) no-repeat;
+    background-size: 20% 100%
+}
+
+#collection .inner {
+    padding-right: 105px;
+}
+
+#minigal {
+    float: right;
+    width: 225px;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#minigal div {
+    float: right;
+    margin: 5px;
+}
+
+#minigal img {
+    width: 60px;
+    height: 55px;
+}
+
+#collection ul {
+    margin-left: 1.7rem;
+}
+
+#collection li {
+    margin: 0.rem 0;
+    color: #1C1C1C;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: "arial narrow", arial, sans-serif;
+}
+
+#collection p {
+    width: 103px;
+    margin-left: 1.1rem;
+    font-size: 0.8rem;
+}
+
+#seas-one, #seas-two, #seas-three {
+    height: 165px;
+    margin-top: 2px;
+}
+
+#seas-one {
+    float: right;
+    width: 221px;
+    margin-left: 1px;
+    background-color: #1C1C1C;
+    background: url(imagens/tenor.gif) no-repeat;
+}
+
+#seas-two {
+    float: right;
+    width: 228px;
+    margin-right:1px;
+    background-color: #1C1C1C;
+    background: url(imagens/tenor.gif) no-repeat;
+}
+
+#seas-three {
+    float: right;
+    width: 229px;
+    background-color: #1C1C1C;
+    background: url(imagens/tenor.gif) no-repeat;
+    
+}
+
+#seas p {
+    text-align:left;
+    color:#000;
+    margin: 115px 15px 0 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#seas p.date {
+    margin-top: auto;
+    font-size: 0.8em;
+    color:#d1d1d1;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 3px;
+    color: #fff;
+}
+
